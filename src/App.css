@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/reviews-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+.review-heading{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    padding-top: 40px;
+
+}
+
+.button{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+}
+.left-button{
+    width: 40px;
+    height:40px;
+    background-color: transparent;
+    border: 0px;
+}
+.right-button{
+    width: 40px;
+    height:40px;
+    background-color: transparent;
+    border: 0px;
+    
+     
+}

@@ -1,0 +1,48 @@
+
+.person-image{
+    width:84px;
+    height:84px;
+    border-radius: 48px;
+}
+.person-name{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.description{
+    color: #171f46;
+    font-size: 22px;
+}
+.company-name{
+    color: #171f46;
+    font-size: 22px;
+}
+.review-list-container{
+list-style-type: none;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.review-div{
+    text-align: center;
+}
+.button{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+}
+.left-button{
+    width: 40px;
+    height:40px;
+    background-color: transparent;
+    border: 0px;
+}
+.right-button{
+    width: 40px;
+    height:40px;
+    background-color: transparent;
+    border: 0px;
+    
+     
+}
